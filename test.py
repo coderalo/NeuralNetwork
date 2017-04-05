@@ -2,8 +2,8 @@ from nn_model import *
 import numpy as np
 
 parser = argparse.ArgumentParser(description='Process the data and parameters.')
-parser.add_argument('--test_data', default="parse_test_data.csv", help='the path of test data.')
-parser.add_argument('--normalize_data', default="normalize_data", help='the path of normalize data.')
+parser.add_argument('--test_data', default="test_data.csv", help='the path of test data.')
+parser.add_argument('--normalize_data', default="normalize_data.txt", help='the path of normalize data.')
 parser.add_argument('--answer_path', default="./answer.csv", help='the path of answer.')
 parser.add_argument('--model', help="the path of the model.")
 args = parser.parse_args()

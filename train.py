@@ -14,13 +14,13 @@ from nn_model import *
 
 parser = argparse.ArgumentParser(description='Process the data and parameters.')
 # Data 
-parser.add_argument('--train_data', default="parse_train_data.csv", help='the path of train data.')
+parser.add_argument('--train_data', default="train_data.csv", help='the path of train data.')
 parser.add_argument('--optimizer_file', default="./optimizers.json", help='the path of the optimizer file.(JSON)')
 parser.add_argument('--layer_file', default="./layers.json", help='the path of the layer file.(JSON)')
 # Optimizer
 parser.add_argument('--num_epoch', default=2000, type=int, help="the number of epochs will be run.")
 parser.add_argument('--normalization', default=True, type=bool, help="normalization.")
-parser.add_argument('--normalize_data_path', default="normalize_data", help="the path of normalize data (if done).")
+parser.add_argument('--normalize_data_path', default="normalize_data.txt", help="the path of normalize data (if done).")
 # Model Storing
 parser.add_argument('--model_dir', default="model", help="the directory models stored.")
 parser.add_argument('--log_path', default="info", help="the path of the log file.")
