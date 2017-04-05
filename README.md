@@ -1,5 +1,5 @@
 # NeuralNetwork
-a python implement of vanilla neural network
+A python implementation of vanilla (for now) neural network.
 
 Prerequisites
 -------------
@@ -46,7 +46,8 @@ The expected format of layers.json is:
   ]
 }
 ```
-and the expected format of optimizers.json is:
+the available activation functions are ``sigmoid``, ``tanh``, ``relu``. Other functions will be added in the future.
+The expected format of optimizers.json is:
 ```
 {
   "optimizers": [
@@ -64,7 +65,7 @@ and the expected format of optimizers.json is:
   ]
 }
 ```
-The default parameters of the optimizers will be added in future, and for now you have to declare all the parameters that the optimizers need in the ``optimizers.json``. To get the information about the optimizers and parameters you can modify, please take a look at ``optimizers.py``.    
+The default parameters of the optimizers will be added in future, and for now you have to declare all the parameters that the optimizers need in ``optimizers.json``. To get the information about the optimizers and parameters you can modify, please take a look at ``optimizers.py``.  Other optimizers will be added in the future.
 To run the training code:
 ```
 $ python train.py [--train_data train_data.csv] \  
