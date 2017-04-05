@@ -46,7 +46,7 @@ The expected format of layers.json is:
   ]
 }
 ```
-the available activation functions are ``sigmoid``, ``tanh``, ``relu``. Other functions will be added in the future.
+the available activation functions are ``sigmoid``, ``tanh``, ``relu``. Other functions will be added in the future.  
 The expected format of optimizers.json is:
 ```
 {
