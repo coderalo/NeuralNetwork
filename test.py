@@ -31,4 +31,3 @@ test_data = np.round(test_data)
 with open(args.answer_path, "w") as file:
     file.write("id,label\n")
     for i, val in enumerate(test_data[0]): file.write(str(i+1) + "," + str(int(val)) + "\n")
-    #for i, val in enumerate(test_data[0]): file.write(str(int(val)) + "\n")
