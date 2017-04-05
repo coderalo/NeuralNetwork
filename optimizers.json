@@ -1,0 +1,36 @@
+{
+  "optimizers": [
+    {
+      "optimizer": "adam", 
+      "epsilon": 1e-8, 
+      "regularization_coefficient": 1e-6, 
+      "step_size": 0.001, 
+      "exponential_decay_rate2": 0.999, 
+      "exponential_decay_rate1": 0.9
+    },
+    {
+      "optimizer": "adam", 
+      "epsilon": 1e-8, 
+      "regularization_coefficient": 1e-6, 
+      "step_size": 0.001, 
+      "exponential_decay_rate2": 0.999, 
+      "exponential_decay_rate1": 0.9
+    },
+    {
+      "optimizer": "adam", 
+      "epsilon": 1e-8, 
+      "regularization_coefficient": 1e-6, 
+      "step_size": 0.001, 
+      "exponential_decay_rate2": 0.999, 
+      "exponential_decay_rate1": 0.9
+    },
+    {
+      "optimizer": "adam", 
+      "epsilon": 1e-8, 
+      "regularization_coefficient": 1e-6, 
+      "step_size": 0.001, 
+      "exponential_decay_rate2": 0.999, 
+      "exponential_decay_rate1": 0.9
+    }
+  ]
+}

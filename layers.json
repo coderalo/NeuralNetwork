@@ -1,0 +1,19 @@
+{
+  "layers": [
+    {
+      "activation_function": "sigmoid", 
+      "input_feature_size": 136, 
+      "output_feature_size": 20
+    }, 
+    {
+      "activation_function": "sigmoid", 
+      "input_feature_size": 20, 
+      "output_feature_size": 20
+    }, 
+    {
+      "activation_function": "sigmoid", 
+      "input_feature_size": 20, 
+      "output_feature_size": 1
+    } 
+  ]
+}
